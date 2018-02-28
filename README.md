@@ -1,26 +1,31 @@
-#ÃuApp
- La aplicacion es para realizar pedidos de comidas ya sea: pizzas,anburguezas,etc.
- Esta pensada para casi todo el publico.
- 
- ##Funcionalidades
-- Opciones de Elejir las tiendas de comida
-- A la hora de realizar el pedido obligatoriamente el usuario tiene que enviar su geolocalizacion
-- Opcion para elegir las comidas
+#ÃuApp#
+- La aplicación es para realizar pedidos de comidas ya sea: pizzas, hamburguesas, etc.
+-  Está pensada para casi todo el público.
 
-##Diseño de la Arquitectura
-La aplicacion conciste en que un comerciante de comidas en este caso, se registre en la App y que cree su cardapio de comidas. Los clientes (en este caso seria el que pide el delivery), tiene como opciones elegir tiendas de comida como tambien va a tener opcion de elegir la comida del cardapio..
+##Funcionalidades##
+- Opciones de Elegir las tiendas de comida.
+- A la hora de realizar el pedido obligatoriamente el usuario tiene que enviar su geolocalización.
+- Opción para elegir las comidas.
 
-##Diagrama de Clase
+##Diseño de la Arquitectura##
+La aplicación consiste en que un comerciante de comidas en este caso, se registre en la App y que cree su cardapio de comidas. Los clientes (en este caso sería el que pide el delivery), tiene como opciones elegir tiendas de comida como también va a tener opción de elegir la comida del cardapio.
+
+##Diagrama de Clase##
 ![](diagrama.png)
 
-##Diagrama de Iteraccion
+##Diagrama de Iteraccion##
 ![](diagramaiteracion.png)
 
-##Diagrama de Pantalla
+##Diagrama de Pantalla##
 ![](pantalla.png)
-##Formulario de Busqueda
-![](Sin título.png)
-##Herramientas
-- Lenguaje de Programacion Java
+
+##Formulario de Busqueda##
+![](busqueda.png)
+
+##Herramientas##
+- Lenguaje de Programación Java
 - Matrial design
 - Firebase
+
+##Analisis de Persona##
+La persona que necesite hacer pedido de comida o bebidas lo podrá hacer mediante esta aplicación, ya que la función será de ofrecer tiendas que hagan entrega vía delivery. La forma de pago seria con el entregador de dichos ítems a la hora de entregar, el cliente cuando haga el pedido la aplicación pedirá que envié su geolocalización, esa misma geolocalización será usada por el entregador para ubicar al cliente que realizo el pedido.
